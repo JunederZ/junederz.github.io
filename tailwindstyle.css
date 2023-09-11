@@ -840,6 +840,11 @@ video {
   line-height: 2.25rem;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
@@ -853,11 +858,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -939,10 +939,6 @@ video {
     width: 32rem;
   }
 
-  .md\:max-w-4xl {
-    max-width: 56rem;
-  }
-
   .md\:max-w-lg {
     max-width: 32rem;
   }
@@ -982,6 +978,10 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:max-w-4xl {
+    max-width: 56rem;
+  }
+
   .lg\:space-x-10 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(2.5rem * var(--tw-space-x-reverse));
